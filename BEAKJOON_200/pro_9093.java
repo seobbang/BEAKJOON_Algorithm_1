@@ -7,7 +7,7 @@ public class pro_9093 {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		StringBuilder sb = new StringBuilder();
-		int T = Integer.parseInt(s.nextLine()); //nextLine���� �޾���� ���� ���ͱ��� ó�� ����
+		int T = Integer.parseInt(s.nextLine()); 
 		Stack stack = new Stack();
 		
 		for(int i=0; i<T; i++) {
@@ -15,7 +15,7 @@ public class pro_9093 {
 			StringTokenizer st = new StringTokenizer(line, " ");
 			int count = st.countTokens();
 			
-			for(int j=0 ; j<count; j++) { //���⿡ st.countTokens()������� ������ �ٱ� ������ ���� X
+			for(int j=0 ; j<count; j++) {
 				String str = st.nextToken();
 				
 				for(int k=0; k<str.length() ; k++) {
